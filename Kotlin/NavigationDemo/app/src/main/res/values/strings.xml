@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Navigation Demo</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="terms">Terms</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="next"><![CDATA[Next>]]></string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="submit">Submit</string>
+    <string name="welcome">Welcome</string>
+    <string name="view_terms">View Terms</string>
+</resources>
