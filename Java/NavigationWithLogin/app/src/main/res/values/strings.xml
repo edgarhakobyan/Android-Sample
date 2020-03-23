@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login Navigation</string>
+    <string name="view_profile">View Profile</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Username</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="register">Register</string>
+</resources>
