@@ -37,6 +37,8 @@ public class NewUserActivity extends AppCompatActivity {
         public void onSubmitClicked(View view) {
             if (user.getName() == null) {
                 Toast.makeText(getApplicationContext(),"Name field cannot be empty",Toast.LENGTH_LONG).show();
+            } else if(!EmailValidator.isValidEmail(user.getEmail())) {
+                Toast.makeText(getApplicationContext(),"Wrong email format", Toast.LENGTH_LONG).show();
             } else {
                 Intent intent=new Intent();
                 intent.putExtra("NAME", user.getName());
